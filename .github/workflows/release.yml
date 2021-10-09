@@ -20,6 +20,6 @@ jobs:
     - name: Pack
       run: dotnet pack src/DataFunc.Integrations.ExactOnline/DataFunc.Integrations.ExactOnline.csproj --configuration Release /p:Version=${VERSION} --no-build --output .
     - name: Push
-      run: dotnet nuget push NuGet.Workflow.${VERSION}.nupkg --source https://nuget.pkg.github.com/acraven/index.json --api-key ${NUGET_API_KEY}
+      run: dotnet nuget push DataFunc.Integrations.ExactOnline.${VERSION}.nupkg --source https://nuget.pkg.github.com/acraven/index.json --api-key ${NUGET_API_KEY}
       env:
         GITHUB_TOKEN: ${{ secrets.NUGET_API_KEY }}
