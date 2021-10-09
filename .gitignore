@@ -1,0 +1,6 @@
+.vs/
+src/DataFunc.Integrations.ExactOnline.Tests/bin/
+src/DataFunc.Integrations.ExactOnline.Tests/obj/
+src/DataFunc.Integrations.ExactOnline/obj/
+src/DataFunc.Integrations.ExactOnline/bin/
+*.json

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AccountantInfo\**" />
+    <Compile Remove="AccountOwners\Filters\**" />
+    <Compile Remove="AssetDepreciationMethods\Filters\**" />
+    <Compile Remove="AssetGroups\Filters\**" />
+    <Compile Remove="Assets\Filters\**" />
+    <Compile Remove="Infrastructure\Helpers\**" />
+    <Compile Remove="Projects\Services\**" />
+    <EmbeddedResource Remove="AccountantInfo\**" />
+    <EmbeddedResource Remove="AccountOwners\Filters\**" />
+    <EmbeddedResource Remove="AssetDepreciationMethods\Filters\**" />
+    <EmbeddedResource Remove="AssetGroups\Filters\**" />
+    <EmbeddedResource Remove="Assets\Filters\**" />
+    <EmbeddedResource Remove="Infrastructure\Helpers\**" />
+    <EmbeddedResource Remove="Projects\Services\**" />
+    <None Remove="AccountantInfo\**" />
+    <None Remove="AccountOwners\Filters\**" />
+    <None Remove="AssetDepreciationMethods\Filters\**" />
+    <None Remove="AssetGroups\Filters\**" />
+    <None Remove="Assets\Filters\**" />
+    <None Remove="Infrastructure\Helpers\**" />
+    <None Remove="Projects\Services\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+  </ItemGroup>
+
+
+</Project>
