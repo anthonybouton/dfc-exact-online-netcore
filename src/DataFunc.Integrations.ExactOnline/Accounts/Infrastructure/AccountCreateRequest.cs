@@ -11,5 +11,6 @@
         public string Language { get; set; }
         public string Status { get; set; }
         public string Remarks { get; set; }
+        public string VATNumber { get; set; }
     }
 }
